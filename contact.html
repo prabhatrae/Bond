@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav_ul">
+                <li class="nav_lil">
+                    <a href="/" classs="nav-link">
+                        <img class="navlogo" src="./img/logo.png" height="50" alt="NavLogo" />
+                    </a>
+                </li>
+                <li class="nav_li2"> <a href="./index.html">Home</a></li>
+                <li class="nav_li3"> <a href="./product.html">product</a></li>
+                <li class="nav_li4"> <a href="./about.html">about</a></li>
+                <li class="nav_li5"> <a href="./contact.html">contact</a></li>
+                <li class="search nav_li6"><img src="./img/iconsearch.png" class="search" height="22" alt="search" />
+                    <input type="text" name="search" id="search" />
+                </li>
+                <li class="btn nav_li7 signin">
+                    <a href="signup.html">signup</a>
+                </li>
+                <li class="btn nav_li8 login">
+                    <a href="./login,html">login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+                  <!-- Contact us form-->
+    <div class="background-page">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+
+                <!-- Full Name-->
+                 <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Your full name" required>
+                 </div>
+
+                 <!-- Email Address-->
+                  <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Your email adress" required>
+                  </div>
+
+                  <!-- Phone Number-->
+                   <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your phone number" required pattern="[0-9]{10}">
+                   </div>
+
+                   <!--Address-->
+                   <div class="form-group">
+                    <label for="Address">Address</label>
+                    <input type="text" id="address" name="address" placeholder="Your address" required>
+                   </div>
+
+                   <!-- State DropDown (status of Nepal)-->
+                    <div class="form-group">
+                        <label for="State">State</label>
+                        <select name="state" id="state" required>
+                        <option value="province1">Province1</option>
+                        <option value="province2">Province2</option>
+                        <option value="bagmati">Bagmati Provience</option>
+                        <option value="gandaki">Gandaki Provience</option>
+                        <option value="lumbini">Lumbini Provience</option>
+                        <option value="karnali">Karnali Provience</option>
+                        <option value="sudurpaschim">Sudurpaschim Provience</option>
+                    </select>
+                    </div>
+
+                    <!--Subject-->
+                    <div class="form-group">
+                        <input type="text" id="Subject" name="Subject" placeholder="Subject" required>
+                    </div>
+
+                    <!--Message-->
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="5" placeholder="Your message" required></textarea>
+                    </div>
+
+                    <!--Submit Button-->
+                    <button type="submit">Send Message</button>
+            </form>
+
+        </div>
+
+    </div>
+
+    
+<!-- This is a footer section -->
+<footer>
+    <div class="footer">
+        <div class="footer1">
+            <h4>Help</h4>
+            <p>Support Us</p>
+            <p>FAQ's</p>
+            <p>Terms and Conditions</p>
+            <p>Privacy Policy</p>
+        </div>
+        <div class="footer2">
+            <h4>Company</h4>
+            <p><a href="/">Home</a></p>
+            <p><a href="/contactus.html">Contact</a></p>
+            <p><a href="/product.html">Product</a></p>
+            <p><a href="/about.html">About</a></p>
+        </div>
+
+        <div class="footer3">
+            <h4>Social Media</h4>
+            <div class="ftr1" style="padding-bottom: 15px;">
+                <img src="./img/facebook-logo.png" alt="facebook" class="icn icnFb" height="25"/>
+                <img src="./img/instagram-logo.png" alt="instagram" class="icn icnIg" height="25"/>
+                <img src="./img/twitter-logo.png" alt="twitter" class="icn icnTw" height="25"/>
+            </div>
+            <div class="ftr2">
+                <img src="./img/logo.png" alt="footerLogo" height="40" />
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+
+</body>
+
+</html>
