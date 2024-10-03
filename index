@@ -34,45 +34,11 @@
         </nav>
     </header>
 
-    <div class="about-us-page">
-        <div class="us container">
-            <p>
-                Youth IT is a technology company that specializes in audio equipment, 
-                particularly headphones and earphones. Known for producing high-quality, 
-                affordable audio products, Youth IT combines cutting-edge sound technology with sleek,
-                modern designs. The company focuses on delivering immersive sound experiences, 
-                with a special emphasis on noise-canceling features, wireless connectivity, 
-                and durable yet comfortable designs. Youth IT caters to a wide range of consumers, 
-                from casual music listeners to audiophiles,
-                offering products that balance innovation with user-friendly functionality.
-            </p>
-
-            <p>Wireless Over-Ear Headphones with Noise Cancellation.
-                Enjoy immersive sound with these sleek, comfortable headphones.
-                Featuring advanced noise-cancellation technology, 30-hour battery life, and Bluetooth connectivity,
-                they deliver crystal-clear audio and deep bass for a superior listening experience. Ideal for music, calls, and gaming.
-                Foldable design for easy portability.
-            </p>
-
-            <h3>Our Location</h3>
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.9536217245336!2d87.26751857528573!3d26.659165376799198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef6c65faf8c469%3A0x9274e332a2ccdc61!2zS29zaGkgU3QuIEphbWVzIENvbGxlZ2UgKOCkleCli-CktuClgCDgpLjgpYfgpKjgpY3gpJ8g4KSc4KWH4KSu4KWN4KS4IOCkleCksuClh-CknCk!5e1!3m2!1sen!2snp!4v1727934016439!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
-            </div>
+    <!--signup page-->
+    <div>
         
-            <h3>Contact Us</h3>
-            <p>
-                <strong>YOUTH IT</strong> <br>
-                Address: Bansbari, Morang, Nepal <br>
-                Phone: +977 1234567890 <br>
-                Email: contact@youthit.com
-            </p>
-        
-
-        </div>
-
     </div>
-    
-    
+
 <!-- This is a footer section -->
 <footer>
     <div class="footer">
