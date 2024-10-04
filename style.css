@@ -280,7 +280,17 @@ button{
     margin-bottom: -30px;
 }
 
-/*left out*/
+/* Contact us page css */
+
+.background-page{
+    background-image: url(./img/headphone1.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #777;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    }
+
 .contact-container {
     background-color: rgb(255, 255, 255, 0.496);
     padding: 30px;
@@ -344,8 +354,7 @@ button:hover{
     background-color: #0056b3;
 }
 
-/* signup and login page */
-.form-container{
+/* .form-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -369,7 +378,7 @@ button:hover{
 
 .form-group{
     margin-bottom: 15px;
-}
+} */
 
 /* Maybe left out*/
 
@@ -413,3 +422,75 @@ button:hover{
     margin-top: 30px;
     font-size: 1.8rem;
 }
+
+/* signup and login page  */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .form-box {
+    background-color: #ffffffa9; 
+    padding: 50px; 
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 15px; 
+    width: 450px; 
+  }
+  
+  .form-box h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #0056b3; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%; 
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #007bff; /* Darker button color on hover */
+  }
+  
+  p {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
