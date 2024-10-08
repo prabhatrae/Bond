@@ -5,12 +5,13 @@
 }
 
 body{
-    font-family: "Robert Slab", serif;
+    font-family: "Roboto Slab", serif;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
 
+/* NavBar */
 header,
 footer{
     color: rgb(253, 253, 253);
@@ -354,32 +355,6 @@ button:hover{
     background-color: #0056b3;
 }
 
-/* .form-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 20px;
-}
-
-.form-box{
-    background-color: #ffffffa9;
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin: 450px;
-    width: 450px;
-}
-
-.form-box h2{
-    margin-bottom: 20px;
-    font-size: 2rem;
-}
-
-.form-group{
-    margin-bottom: 15px;
-} */
-
 /* Maybe left out*/
 
 /* about section*/
@@ -494,3 +469,17 @@ button:hover{
     text-decoration: underline;
   }
   
+  /*view more */
+  .view-more {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 200px;           /* Adjust height as needed */
+    width: 100%;             /* Full width */
+}
+
+.buy-button {
+    display: inline-block;
+    text-align: center;      /* Ensures text is centered within the button */
+}
+
