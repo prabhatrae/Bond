@@ -281,7 +281,7 @@ button{
     margin-bottom: -30px;
 }
 
-/* Contact us page css */
+/*
 
 .background-page{
     background-image: url(./img/headphone1.png);
@@ -290,7 +290,7 @@ button{
     background-color: #777;
     margin-top: -30px;
     margin-bottom: -30px;
-    }
+    } */
 
 .contact-container {
     background-color: rgb(255, 255, 255, 0.496);
@@ -398,7 +398,7 @@ button:hover{
     font-size: 1.8rem;
 }
 
-/* signup and login page  */
+/* login page  */
 .form-container {
     display: flex;
     justify-content: center;
@@ -408,7 +408,7 @@ button:hover{
   }
   
   .form-box {
-    background-color: #ffffffa9; 
+    background-color: #fffafaa9; 
     padding: 50px; 
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -474,7 +474,7 @@ button:hover{
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center;     /* Center vertically */
-    height: 200px;           /* Adjust height as needed */
+    height: 10px;           /* Adjust height as needed */
     width: 100%;             /* Full width */
 }
 
