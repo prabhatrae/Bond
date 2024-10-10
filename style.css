@@ -281,17 +281,6 @@ button{
     margin-bottom: -30px;
 }
 
-/*
-
-.background-page{
-    background-image: url(./img/headphone1.png);
-    background-position: center;
-    background-size: cover;
-    background-color: #777;
-    margin-top: -30px;
-    margin-bottom: -30px;
-    } */
-
 .contact-container {
     background-color: rgb(255, 255, 255, 0.496);
     padding: 30px;
@@ -355,7 +344,6 @@ button:hover{
     background-color: #0056b3;
 }
 
-/* Maybe left out*/
 
 /* about section*/
 .about-us-page{
@@ -369,7 +357,7 @@ button:hover{
 .about-us-container{
     max-width: 125opx;
     padding: 30px;
-    background-color: #ffffffff; /* white background */
+    background-color: #ffffff; /* white background */
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -408,7 +396,7 @@ button:hover{
   }
   
   .form-box {
-    background-color: #fffafaa9; 
+    background-color: #ffffffa9; 
     padding: 50px; 
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -483,3 +471,27 @@ button:hover{
     text-align: center;      /* Ensures text is centered within the button */
 }
 
+/* footer section  */
+
+
+.footer {
+    width: 100%;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .footer h4 {
+    margin-bottom: 15px;
+  }
+  
+  .icn {
+    background-color: white;
+    border-radius: 100px;
+  }
+  
+  .footer2 p a{
+    color: rgb(253, 253, 253);
+  }
