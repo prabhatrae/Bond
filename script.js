@@ -20,7 +20,7 @@ function nextImage() {
 
 // Event listeners for buttons
 prevBtn.addEventListener("click", () => {
-    currentindex = (currentIndex > 0) ? currentIndex - 1 : image.length - 1;
+    currentindex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
     updateImage();
 });
 nextBtn.addEventListener("click", nextImage);

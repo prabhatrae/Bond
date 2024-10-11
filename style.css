@@ -101,19 +101,19 @@ button{
 }
 
 .carousel-btn {
-    background-color: rgb(75, 71, 71, 0.582);
+    background-color: rgba(75, 71, 71, 0.582);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     margin: 0 10px;
     border-radius: 50%;
     transition: background-color 0.3s ease;
-    margin: 100%;
+    margin: 100px;
     margin-left: 0px;
 }
 
 .carousel-btn:hover {
-    background-color: rgb(255, 255, 255, 0.233);
+    background-color: rgba(255, 255, 255, 0.233);
 }
 
 /* hero section / 1st and 2nd */
@@ -131,6 +131,33 @@ button{
     gap: 1rem;
     justify-content: space-around;
 }
+
+.section1_prdt {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .price {
+    flex-direction: column;
+    padding-top: 10em;
+  }
+  
+  .price p {
+    font-size: large;
+    font-weight: bolder;
+  }
+  
+  .s1ProductDetails,
+  .s2_detailsP {
+    text-align: justify;
+  }
+  
+  .btnPrice,
+  .price {
+    display: flex;
+    gap: 1rem;
+  }
+  
 
 .section2 {
     width: 70%;
@@ -377,7 +404,7 @@ button:hover{
 }
 
 .map-container iframe{
-    width: 100%;
+    width: 100;
     height: 400px;
 }
 
